@@ -1,7 +1,9 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 # made by Serhii Solianenko
-# Getting Started
 
+# Star Wars Favorites Mobile Application
+
+# Getting Started
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
@@ -42,45 +44,35 @@ npm run ios
 yarn ios
 ```
 ```
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Task:
+Implement the mobile application based on React Native Init/CLI (not Expo) for iOS & Android platforms that gives the ability to indicate the total amount of male/female/other favourite characters across the Star Wars Universe. 
+Statements:
+Make an API Request to get the information from the server.
+Display the list of retrieved elements.
+By clicking on any element of this list - extra information should be displayed on the dedicated screen.
+By clicking on the “Add to favourites” link/icon against any character - recalculate the total votes and indicate the selected element as the liked one. 
+Display total amounts of male/female/other characters based on the user's selection.
+The “Reset” button should flush all previously added to the favourites list personages and make all total values equal to zero.
+API:
+ https://swapi.dev/
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Reference:
+https://sw-app-gilt.vercel.app/ 
+Requirements:
+We need the main screen with a scrollable and paginated list of elements that navigate the user to another screen with additional information about the selected entity.
+The application should allow users to add list elements to favourites and calculate totals based on male/female/etc. gender.
+The “Reset” button should flush all the statistics to the initial state.
+It’s possible to use any state management approach.
+It’s allowed to use any UI library/framework to style the application.
+It’s recommended to follow the referenced stylings or it’d be a plus to customize it due to your preferences and/or best UX/UI practices.
+The codebase of this application should be uploaded to GitHub public repository with relevant README information.
 
-Step 3: Exploring State Population Data
-Now that you have successfully launched the app, let's explore state population data:
 
-Open App.tsx in your preferred text editor and make the necessary code modifications to fetch and display state population data.
+We will assess the next parts:
+workability: how your application works;
+projects structure: how you structure your files;
+code quality: how you write clean, readable code (feel free to install and use ESLint and Prettier);
+knowledge React, React Native and their ecosystem: how you compose and use libraries together;
 
-For Android: Press the <kbd>R</kbd> key twice or select "Reload" from the Developer Menu (<kbd>Ctrl</kbd> + <kbd>M</kbd> on Windows and Linux, or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> on macOS) to see the changes.
-
-For iOS: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and view the updated state population data.
-
-App Features
-Congratulations on running and modifying your React Native State Population Viewer! Now, let's take a look at some of its key features:
-
-State Population Data: Users can browse and access population statistics for various states.
-Interactive Charts: The app provides interactive charts and graphs to visualize population trends.
-Search Functionality: Users can search for specific states to quickly access population information.
-Comparative Analysis: Users can compare the population data of multiple states side by side.
-User-Friendly UI: The app boasts an intuitive and user-friendly interface for easy navigation and data exploration.
-Future Enhancements
-Here are some future enhancements you can consider for your app:
-
-Historical Data: Incorporate historical population data to enable users to analyze trends over time.
-Geographical Maps: Add interactive maps to visually represent population distribution across states.
-User Profiles: Allow users to create profiles and save their favorite states for quick access.
-Data Sources: Provide references to the sources of population data for transparency.
-Troubleshooting
-If you encounter any issues while running or modifying the app, please refer to the Troubleshooting page for guidance.
-
-Learn More
-To learn more about React Native and its capabilities, explore the following resources:
-
-React Native Website: Gain in-depth knowledge about React Native.
-Getting Started: Get an overview of React Native and learn how to set up your development environment.
-Learn the Basics: Take a guided tour of React Native fundamentals.
-Blog: Stay updated with the latest official React Native blog posts.
-@facebook/react-native: Visit the open-source GitHub repository for React Native.
-Happy exploring and developing your React Native State Population Viewer! 📊🔍📈
 ```
 
