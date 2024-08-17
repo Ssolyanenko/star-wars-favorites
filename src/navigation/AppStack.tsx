@@ -1,4 +1,4 @@
-import {createNativeStackNavigator} from 'react-native-screens/native-stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {Root} from '../Root';
 import MainScreen from '../screens/MainScreen';
 import {DetailsScreen} from "../screens/DetailsScreen";

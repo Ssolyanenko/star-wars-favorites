@@ -5,7 +5,7 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 export const Root = () => {
   return (
     <SafeAreaProvider>
-      <NavigationContainer independent={true}>
+      <NavigationContainer independent={false}>
         <AppStack />
       </NavigationContainer>
     </SafeAreaProvider>
